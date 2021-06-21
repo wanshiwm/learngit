@@ -1,3 +1,5 @@
+配置用户名					git config --global user.name "<username>"
+配置用户邮箱				git config --global user.email "<emailaddr>"
 创建版本库 					git init
 查看状态					git status
 添加至暂存区 				git add <file>
@@ -9,7 +11,7 @@
 还原暂存区文件				git restore --staged <file>
 还原工作区文件				git restore <file>
 删除文件					git rm <file>
-创建key 					ssh-keygen -t rsa -C "<emailladdr>"
+创建key 					ssh-keygen -t rsa -C "<emailaddr>"
 关联远程库					git remote add origin <githubaddr>
 推送远程库					git push -u origin master / git push
 查看远程库					git remote -v
